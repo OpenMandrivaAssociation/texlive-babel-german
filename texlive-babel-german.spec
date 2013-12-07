@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-babel-german
 Version:	20131013
-Release:	3
+Release:	4
 Summary:	TeXLive babel-german package
 Group:		Publishing
 URL:		http://tug.org/texlive
