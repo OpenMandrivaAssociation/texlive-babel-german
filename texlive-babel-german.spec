@@ -1,16 +1,17 @@
-# revision 30271
+# revision 32421
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /macros/latex/contrib/babel-contrib/german
+# catalog-date 2013-12-15 16:16:02 +0100
+# catalog-license lppl1.3
+# catalog-version 2.7
+Epoch:		1
 Name:		texlive-babel-german
-Version:	20131013
-Release:	5
-Summary:	TeXLive babel-german package
+Version:	2.7
+Release:	1
+Summary:	Babel support for documents written in German
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/german
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-german.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-german.doc.tar.xz
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-german.source.tar.xz
@@ -20,7 +21,9 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-TeXLive babel-german package.
+The package defines LaTeX support, within the Babel package, of
+German (including its Austrian dialect), in both 'old' and
+'new' orthographies.
 
 %post
     %{_sbindir}/texlive.post
@@ -32,8 +35,15 @@ TeXLive babel-german package.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/generic/babel-german/austrian.ldf
+%{_texmfdistdir}/tex/generic/babel-german/german.ldf
 %{_texmfdistdir}/tex/generic/babel-german/germanb.ldf
+%{_texmfdistdir}/tex/generic/babel-german/naustrian.ldf
+%{_texmfdistdir}/tex/generic/babel-german/ngerman.ldf
 %{_texmfdistdir}/tex/generic/babel-german/ngermanb.ldf
+%{_texmfdistdir}/tex/generic/babel-german/nswissgerman.ldf
+%{_texmfdistdir}/tex/generic/babel-german/swissgerman.ldf
+%doc %{_texmfdistdir}/doc/generic/babel-german/README
 %doc %{_texmfdistdir}/doc/generic/babel-german/germanb.pdf
 %doc %{_texmfdistdir}/doc/generic/babel-german/ngermanb.pdf
 #- source
