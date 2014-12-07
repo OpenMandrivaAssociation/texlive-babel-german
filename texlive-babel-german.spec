@@ -7,7 +7,7 @@
 Epoch:		1
 Name:		texlive-babel-german
 Version:	2.7
-Release:	3
+Release:	4
 Summary:	Babel support for documents written in German
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/german
