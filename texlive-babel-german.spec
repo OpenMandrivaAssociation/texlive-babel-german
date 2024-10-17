@@ -4,7 +4,7 @@ Version:	69506
 Release:	1
 Summary:	Babel support for documents written in German
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/german
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/german
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-german.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-german.doc.r%{version}.tar.xz
